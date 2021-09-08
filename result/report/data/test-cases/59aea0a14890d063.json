@@ -1,0 +1,60 @@
+{
+  "uid" : "59aea0a14890d063",
+  "name" : "test_login2[test20]",
+  "fullName" : "testcases.test_chandao_login.TestChandao#test_login2",
+  "historyId" : "c0d9f662b2b1f2921c5ad5d9ff7c6d89",
+  "time" : {
+    "start" : 1631108746365,
+    "stop" : 1631108753898,
+    "duration" : 7533
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_chandao_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestChandao"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "3664-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_chandao_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test2",
+    "value" : "['admin', 12345]"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "59aea0a14890d063.json",
+  "parameterValues" : [ "['admin', 12345]" ]
+}

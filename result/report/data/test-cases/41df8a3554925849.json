@@ -1,0 +1,130 @@
+{
+  "uid" : "41df8a3554925849",
+  "name" : "test_getuserinfo[Newb_003]",
+  "fullName" : "testcases.testnewbee.test_newbee_luserinfo.Test_userinfo#test_getuserinfo",
+  "historyId" : "23d8429c0616988a7872c59231dfec48",
+  "time" : {
+    "start" : 1631109676757,
+    "stop" : 1631109676886,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_init",
+    "time" : {
+      "start" : 1631109676331,
+      "stop" : 1631109676362,
+      "duration" : 31
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b90ef98a8176df6",
+      "name" : "log",
+      "source" : "5b90ef98a8176df6.txt",
+      "type" : "text/plain",
+      "size" : 84
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.testnewbee"
+  }, {
+    "name" : "suite",
+    "value" : "test_newbee_luserinfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userinfo"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "21784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.testnewbee.test_newbee_luserinfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'Newb_003'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b846b8a9b086c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631109078456,
+        "stop" : 1631109078908,
+        "duration" : 452
+      }
+    }, {
+      "uid" : "8ca075bd47a9142a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631108827699,
+        "stop" : 1631108828227,
+        "duration" : 528
+      }
+    }, {
+      "uid" : "2724d4eaaa9165ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631108427210,
+        "stop" : 1631108427909,
+        "duration" : 699
+      }
+    }, {
+      "uid" : "cc7c10c4eae1dabe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631104877750,
+        "stop" : 1631104877799,
+        "duration" : 49
+      }
+    }, {
+      "uid" : "2f0ff72069049658",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631104264087,
+        "stop" : 1631104264132,
+        "duration" : 45
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41df8a3554925849.json",
+  "parameterValues" : [ "'Newb_003'" ]
+}

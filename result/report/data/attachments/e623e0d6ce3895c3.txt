@@ -1,0 +1,1 @@
+INFO     root:test_newbee_homep.py:21 验证获取首页信息成功的用例！

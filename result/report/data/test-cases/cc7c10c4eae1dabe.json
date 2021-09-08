@@ -1,0 +1,88 @@
+{
+  "uid" : "cc7c10c4eae1dabe",
+  "name" : "test_getuserinfo[Newb_003]",
+  "fullName" : "testcases.testnewbee.test_newbee_luserinfo.Test_userinfo#test_getuserinfo",
+  "historyId" : "23d8429c0616988a7872c59231dfec48",
+  "time" : {
+    "start" : 1631104877750,
+    "stop" : 1631104877799,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_init",
+    "time" : {
+      "start" : 1631104877488,
+      "stop" : 1631104877527,
+      "duration" : 39
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ffd838910ab9fc65",
+      "name" : "log",
+      "source" : "ffd838910ab9fc65.txt",
+      "type" : "text/plain",
+      "size" : 84
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.testnewbee"
+  }, {
+    "name" : "suite",
+    "value" : "test_newbee_luserinfo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_userinfo"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "14088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.testnewbee.test_newbee_luserinfo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'Newb_003'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc7c10c4eae1dabe.json",
+  "parameterValues" : [ "'Newb_003'" ]
+}

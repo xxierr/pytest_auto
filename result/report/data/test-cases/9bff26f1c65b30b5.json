@@ -1,0 +1,88 @@
+{
+  "uid" : "9bff26f1c65b30b5",
+  "name" : "test_login[Newb_002]",
+  "fullName" : "testcases.testnewbee.test_newbee_login.Test_login#test_login",
+  "historyId" : "ed951aca5ca4f5cf830f53db1a00f1e1",
+  "time" : {
+    "start" : 1631108420097,
+    "stop" : 1631108427181,
+    "duration" : 7084
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_init",
+    "time" : {
+      "start" : 1631108417236,
+      "stop" : 1631108417504,
+      "duration" : 268
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2b8c0063d3b8da5d",
+      "name" : "log",
+      "source" : "2b8c0063d3b8da5d.txt",
+      "type" : "text/plain",
+      "size" : 74
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases.testnewbee"
+  }, {
+    "name" : "suite",
+    "value" : "test_newbee_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "22336-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.testnewbee.test_newbee_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "'Newb_002'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9bff26f1c65b30b5.json",
+  "parameterValues" : [ "'Newb_002'" ]
+}

@@ -1,0 +1,71 @@
+[ {
+  "uid" : "ec7f2cb6073d2f64",
+  "name" : "test_firstpage[Newb_001]",
+  "time" : {
+    "start" : 1631109676362,
+    "stop" : 1631109676487,
+    "duration" : 125
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c56dc6a629eafcc1",
+  "name" : "test_login2[test20]",
+  "time" : {
+    "start" : 1631109607367,
+    "stop" : 1631109614951,
+    "duration" : 7584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1232fc2f9bfb223",
+  "name" : "test_register[Newb_004]",
+  "time" : {
+    "start" : 1631109676912,
+    "stop" : 1631109677058,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fd930ebd08166ab1",
+  "name" : "test_login[Newb_002]",
+  "time" : {
+    "start" : 1631109676507,
+    "stop" : 1631109676749,
+    "duration" : 242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cad0d84f0756203a",
+  "name" : "test_login[test10]",
+  "time" : {
+    "start" : 1631109646120,
+    "stop" : 1631109676324,
+    "duration" : 30204
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41df8a3554925849",
+  "name" : "test_getuserinfo[Newb_003]",
+  "time" : {
+    "start" : 1631109676757,
+    "stop" : 1631109676886,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f1dfe83ccecfe88",
+  "name" : "test_login1[test10]",
+  "time" : {
+    "start" : 1631109614960,
+    "stop" : 1631109627446,
+    "duration" : 12486
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,76 @@
+{
+  "uid" : "85a54b5bb34ab86",
+  "name" : "test_login[test10]",
+  "fullName" : "testcases.test_loginqq.Test_qq#test_login",
+  "historyId" : "1b6fb90f75e72e47ba3e9d78ff3ad189",
+  "time" : {
+    "start" : 1631105080956,
+    "stop" : 1631105080956,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+  "statusTrace" : "@pytest.fixture(scope='session')\n    def test_open():\n        app_driver = webdriver.Remote(driver_path, caps)\n        app_driver.implicitly_wait(25)\n        time.sleep(3)\n>       activity = app_driver.current_activity.title()\nE       AttributeError: 'WebDriver' object has no attribute 'current_activity'\n\ntestcases\\conftest.py:42: AttributeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_open",
+    "time" : {
+      "start" : 1631105080958,
+      "stop" : 1631105100863,
+      "duration" : 19905
+    },
+    "status" : "broken",
+    "statusMessage" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'\n",
+    "statusTrace" : "  File \"D:\\Python\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\Python\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\Python\\lib\\site-packages\\_pytest\\fixtures.py\", line 925, in call_fixture_func\n    fixture_result = next(generator)\n  File \"D:\\PycharmProjects\\pytest_auto\\testcases\\conftest.py\", line 42, in test_open\n    activity = app_driver.current_activity.title()\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginqq"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_qq"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "17580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_loginqq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test1",
+    "value" : "[2959669699, 'xl+9795562045jm']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85a54b5bb34ab86.json",
+  "parameterValues" : [ "[2959669699, 'xl+9795562045jm']" ]
+}

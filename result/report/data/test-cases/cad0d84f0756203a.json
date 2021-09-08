@@ -1,0 +1,306 @@
+{
+  "uid" : "cad0d84f0756203a",
+  "name" : "test_login[test10]",
+  "fullName" : "testcases.test_loginqq.Test_qq#test_login",
+  "historyId" : "1b6fb90f75e72e47ba3e9d78ff3ad189",
+  "time" : {
+    "start" : 1631109646120,
+    "stop" : 1631109676324,
+    "duration" : 30204
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_open",
+    "time" : {
+      "start" : 1631109627465,
+      "stop" : 1631109646119,
+      "duration" : 18654
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "14cd378079408560",
+      "name" : "log",
+      "source" : "14cd378079408560.txt",
+      "type" : "text/plain",
+      "size" : 62
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "test_open::0",
+    "time" : {
+      "start" : 1631109677061,
+      "stop" : 1631109689059,
+      "duration" : 11998
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginqq"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_qq"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "21784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_loginqq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test1",
+    "value" : "[2959669699, 'xl+9795562045jm']"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3c2c984c98b8c73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631109381531,
+        "stop" : 1631109411471,
+        "duration" : 29940
+      }
+    }, {
+      "uid" : "64c9b78d546ad37c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631109064224,
+        "stop" : 1631109069253,
+        "duration" : 5029
+      }
+    }, {
+      "uid" : "d83c0e3ab025e367",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631108811191,
+        "stop" : 1631108811902,
+        "duration" : 711
+      }
+    }, {
+      "uid" : "846dc33dc77d641e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631108416741,
+        "stop" : 1631108417220,
+        "duration" : 479
+      }
+    }, {
+      "uid" : "ef3f4ee1a9279c65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631107901014,
+        "stop" : 1631107935467,
+        "duration" : 34453
+      }
+    }, {
+      "uid" : "505983fa92fbe4c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1631107750419,
+        "stop" : 1631107750994,
+        "duration" : 575
+      }
+    }, {
+      "uid" : "b621b01f9f542261",
+      "status" : "broken",
+      "statusDetails" : "SystemExit: 0",
+      "time" : {
+        "start" : 1631107382497,
+        "stop" : 1631107382498,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "31653b48111a6823",
+      "status" : "broken",
+      "statusDetails" : "SystemExit: 0",
+      "time" : {
+        "start" : 1631107324016,
+        "stop" : 1631107324017,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "3d91a8a390fd9f07",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource",
+      "time" : {
+        "start" : 1631107170370,
+        "stop" : 1631107170371,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "38b2c97b3c1b7cbd",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631106947270,
+        "stop" : 1631106947270,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1424460555a9d8ff",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631106853028,
+        "stop" : 1631106853028,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7934d0bcc53896ce",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631106718204,
+        "stop" : 1631106718204,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "313713d700b9f704",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631106429637,
+        "stop" : 1631106429637,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f58ef09bc5b6a60",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631106336965,
+        "stop" : 1631106336965,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b9b5eb1bbdf51921",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631106216088,
+        "stop" : 1631106216088,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eee01643ce7ebe41",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631105956745,
+        "stop" : 1631105956745,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7dabd4cb372b140a",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631105832471,
+        "stop" : 1631105832471,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "96c2a50e77864ba4",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631105611589,
+        "stop" : 1631105611589,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1d34b2f20267bc5b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631105532162,
+        "stop" : 1631105532162,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d82709f546e744f8",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631105404145,
+        "stop" : 1631105404145,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "714fb908a968dba3",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631105302698,
+        "stop" : 1631105302698,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "85a54b5bb34ab86",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631105080956,
+        "stop" : 1631105080956,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7fe56e8b05b1015d",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'WebDriver' object has no attribute 'current_activity'",
+      "time" : {
+        "start" : 1631104952404,
+        "stop" : 1631104952404,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cad0d84f0756203a.json",
+  "parameterValues" : [ "[2959669699, 'xl+9795562045jm']" ]
+}

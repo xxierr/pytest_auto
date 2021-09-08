@@ -1,0 +1,1 @@
+INFO     root:test_newbee_register.py:21 验证用户注册成功的用例！

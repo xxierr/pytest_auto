@@ -1,0 +1,73 @@
+{
+  "uid" : "c3c2c984c98b8c73",
+  "name" : "test_login[test10]",
+  "fullName" : "testcases.test_loginqq.Test_qq#test_login",
+  "historyId" : "1b6fb90f75e72e47ba3e9d78ff3ad189",
+  "time" : {
+    "start" : 1631109381531,
+    "stop" : 1631109411471,
+    "duration" : 29940
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "85322dd7d2452fd6",
+      "name" : "log",
+      "source" : "85322dd7d2452fd6.txt",
+      "type" : "text/plain",
+      "size" : 62
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginqq"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_qq"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "12620-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_loginqq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test1",
+    "value" : "[2959669699, 'xl+9795562045jm']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3c2c984c98b8c73.json",
+  "parameterValues" : [ "[2959669699, 'xl+9795562045jm']" ]
+}

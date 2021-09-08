@@ -1,0 +1,89 @@
+{
+  "uid" : "b621b01f9f542261",
+  "name" : "test_login[test10]",
+  "fullName" : "testcases.test_loginqq.Test_qq#test_login",
+  "historyId" : "1b6fb90f75e72e47ba3e9d78ff3ad189",
+  "time" : {
+    "start" : 1631107382497,
+    "stop" : 1631107382498,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "statusMessage" : "SystemExit: 0",
+  "statusTrace" : "args = (<test_loginqq.Test_qq object at 0x000001F5621D0880>,)\nkwargs = {'test1': [2959669699, 'xl+9795562045jm'], 'test_open': <selenium.webdriver.remote.webdriver.WebDriver (session=\"3dec60fe-c1a9-4497-92bc-e85449096d03\")>}\nimg_path = 'D:\\\\PycharmProjects\\\\pytest_auto\\\\img'\ntestclasstype = \"<class 'test_loginqq.Test_qq'>\", testclassnm = 'Test_qq'\nimg_nm = 'Test_qq_test_login'\n\n    @wraps(func)\n    def __wrap(*args, **kwargs):\n        img_path = os.path.abspath('{}'.format(BeautifulReport.img_path))\n        os.makedirs(img_path, exist_ok=True)\n        testclasstype = str(type(args[0]))\n        # print(testclasstype)\n        testclassnm = testclasstype[testclasstype.rindex('.') + 1:-2]\n        # print(testclassnm)\n        img_nm = testclassnm + '_' + func.__name__\n        try:\n>           result = func(*args, **kwargs)\n\nD:\\Python\\lib\\site-packages\\BeautifulReport\\BeautifulReport.py:445: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_loginqq.Test_qq object at 0x000001F5621D0880>\ntest1 = [2959669699, 'xl+9795562045jm']\ntest_open = <selenium.webdriver.remote.webdriver.WebDriver (session=\"3dec60fe-c1a9-4497-92bc-e85449096d03\")>\n\n    @BeautifulReport.add_test_img(\"test_login图片\")\n    @pytest.mark.parametrize('test1', [test1])\n    def test_login(self,test1,test_open):\n        usernum = test1[0]\n        pw = test1[1]\n        page = Login(test_open)\n>       if page.appdriver.current_activity.title() == 'Com.Tencent.Mobileqq.Activity.Registerguideactivity':\nE       AttributeError: 'WebDriver' object has no attribute 'current_activity'\n\ntestcases\\test_loginqq.py:24: AttributeError\n\nDuring handling of the above exception, another exception occurred:\n\nargs = (<test_loginqq.Test_qq object at 0x000001F5621D0880>,)\nkwargs = {'test1': [2959669699, 'xl+9795562045jm'], 'test_open': <selenium.webdriver.remote.webdriver.WebDriver (session=\"3dec60fe-c1a9-4497-92bc-e85449096d03\")>}\nimg_path = 'D:\\\\PycharmProjects\\\\pytest_auto\\\\img'\ntestclasstype = \"<class 'test_loginqq.Test_qq'>\", testclassnm = 'Test_qq'\nimg_nm = 'Test_qq_test_login'\n\n    @wraps(func)\n    def __wrap(*args, **kwargs):\n        img_path = os.path.abspath('{}'.format(BeautifulReport.img_path))\n        os.makedirs(img_path, exist_ok=True)\n        testclasstype = str(type(args[0]))\n        # print(testclasstype)\n        testclassnm = testclasstype[testclasstype.rindex('.') + 1:-2]\n        # print(testclassnm)\n        img_nm = testclassnm + '_' + func.__name__\n        try:\n            result = func(*args, **kwargs)\n        except Exception:\n            if 'save_img' in dir(args[0]):\n                save_img = getattr(args[0], 'save_img')\n                save_img(os.path.join(img_path, img_nm + '.png'))\n                data = BeautifulReport.img2base(img_path, img_nm + '.png')\n                print(HTML_IMG_TEMPLATE.format(data, data))\n>           sys.exit(0)\nE           SystemExit: 0\n\nD:\\Python\\lib\\site-packages\\BeautifulReport\\BeautifulReport.py:452: SystemExit",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "test_open",
+    "time" : {
+      "start" : 1631107361698,
+      "stop" : 1631107382481,
+      "duration" : 20783
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "test_open::0",
+    "time" : {
+      "start" : 1631107383131,
+      "stop" : 1631107395615,
+      "duration" : 12484
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_loginqq"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_qq"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TNEJE87T"
+  }, {
+    "name" : "thread",
+    "value" : "11560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_loginqq"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "test1",
+    "value" : "[2959669699, 'xl+9795562045jm']"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b621b01f9f542261.json",
+  "parameterValues" : [ "[2959669699, 'xl+9795562045jm']" ]
+}
